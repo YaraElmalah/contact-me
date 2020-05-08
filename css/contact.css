@@ -1,0 +1,66 @@
+body {
+  background-color: #EFEFEF;
+}
+h2{
+ font-family: 'Raleway', sans-serif;
+font-weight: 900;
+    font-size: 50px;
+    letter-spacing: -3px;
+    color: #757575
+}
+
+
+/*Start Form*/
+.contact-form{
+    max-width: 450px;
+    margin: 50px auto;
+}
+.contact-form .form-group{
+  margin-bottom: 0;
+  position: relative;
+}
+.contact-form .form-group .asterisx{
+  float: right;
+  height: 0; /*to clear the float*/
+  font-size: 25px;
+color: #f70f4f;
+position: absolute;
+top: 6px;
+right: 10px
+}
+
+.alert{
+  margin-bottom: 10px;
+}
+.contact-form input, .contact-form textarea{
+    margin-bottom: 5px;
+    padding-left: 30px
+}
+.contact-form textarea{
+    height: 180px !important;
+    resize: none
+}
+.contact-form i{
+    height: 0;
+    float: left;
+    position: relative;
+    top: -30px;
+    left: 10px;
+    color: #999
+}
+/*
+The other way is to use this selector(:not([type="submit"]) + i)
+*/
+.contact-form .send-icon{
+    color: #fff;
+    display: block;
+    height: 14px;
+    float: none;
+    position: relative;
+
+}
+.contact-form .custom-alert{
+  padding: 5px 10px;
+  display: none
+}
+/*End Form*/
